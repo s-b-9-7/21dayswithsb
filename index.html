@@ -2,61 +2,69 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Join 21 days with SB for a journey of self-improvement through daily challenges. Sign up to our newsletter for updates on entertainment and enlightenment that steer you towards self-refinement.">
-    <title>21 Days of Intentional Evolution | 21 days with SB</title>
-    <!-- Add any additional head elements such as CSS files here -->
+    <title>21 Days with SB</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <header>
-        <!-- Level 1 Heading -->
-        <h1>21 Days of Intentional Evolution with SB</h1>
-
-        <!-- Navigation Links -->
-        <nav>
-            <ul>
-                <li><a href="#challenges">Challenges</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#newsletter">Newsletter</a></li>
-            </ul>
-        </nav>
+    <!-- Header -->
+    <header class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-6">
+                <h1>21 Days with SB</h1>
+            </div>
+            <div class="col-6 text-right">
+                <nav>
+                    <ul class="nav">
+                        <li class="nav-item"><a class="nav-link" href="#challenges">CHALLENGES</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#newsletter">NEWSLETTER</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
 
-    <main>
-        <!-- Hero Section with Level 2 Headings and Paragraphs -->
-        <section aria-labelledby="hero-heading">
-            <h2 id="hero-heading">1 Challenge at a Time</h2>
-            <p>Join the unique ride with entertainment and enlightenment as you steer towards self-refinement. Embrace the transformation with SB's 21-day challenges.</p>
-
-            <!-- Call to Action Button -->
-            <button onclick="location.href='#newsletter';">Sign Up to Our Newsletter</button>
-
-            <!-- Image with Alt Text -->
-            <img src="landingpageimage1.png" alt="Man climbing steps holding a torch symbolizing the journey of self-improvement" />
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Section: Challenges -->
+        <section id="challenges" class="my-5">
+            <h2>21 days of intentional evolution, 1 challenge at a time</h2>
+            <p>A unique ride with entertainment & enlightenment steering towards self-refinement.</p>
         </section>
 
-        <!-- Challenges Section -->
-        <section aria-labelledby="challenges-heading">
-            <h2 id="challenges-heading">Our Challenges</h2>
-            <p>Discover a variety of challenges designed to inspire growth, creativity, and self-discovery.</p>
-            <!-- Content related to challenges goes here -->
+        <!-- Section: About -->
+        <section id="about" class="my-5">
+            <h2>Why 21 days? Why challenges?</h2>
+            <p>Old wisdom claims 21 days builds habits; join us to test if they truly last.</p>
         </section>
 
-        <!-- Social Media Links -->
-        <section aria-labelledby="social-media-heading">
-            <h2 id="social-media-heading">Connect With Us</h2>
-            <ul>
-                <li><a href="https://youtube.com" target="_blank" rel="noopener noreferrer">YouTube</a></li>
-                <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-            </ul>
+        <!-- Section: Newsletter -->
+        <section id="newsletter" class="my-5">
+            <h2>Sign Up to Our Newsletter</h2>
+            <form>
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" class="form-control" placeholder="Enter your first name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="form-control" placeholder="Enter your email">
+                </div>
+                <button type="submit" class="btn btn-primary">SIGN UP!</button>
+            </form>
         </section>
     </main>
 
-    <footer>
-        <!-- Footer content like copyright, contact info, etc. -->
-        <p>© 2024 21 days with SB. All rights reserved.</p>
+    <!-- Footer -->
+    <footer class="container-fluid text-center bg-dark text-light py-3">
+        <p>&copy; 2024 21 Days with SB. All rights reserved.</p>
     </footer>
 
+    <!-- Bootstrap JavaScript and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
