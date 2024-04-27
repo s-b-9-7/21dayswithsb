@@ -1,57 +1,177 @@
-/* Global Styles */
-body {
-    font-family: Arial, sans-serif;
+.wireframe {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
 }
 
-header {
-    background: linear-gradient(54.05deg, #92BBE9 2.05%, rgba(248, 248, 248, 0) 75.13%);
+.wireframe .div {
+  background-color: rgba(255, 255, 255, 1);
+  background: linear-gradient(180deg);
+  width: 1440px;
+  height: 1024px;
+  position: relative;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+.wireframe .overlap-group {
+  position: absolute;
+  width: 200px;
+  height: 36px;
+  top: 56px;
+  left: 1163px;
+  background-color: #333333;
+  border-radius: 10px;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+.wireframe .group {
+  position: relative;
+  width: 169px;
+  height: 1px;
+  top: 18px;
+  left: 16px;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: white;
+.wireframe .text-wrapper {
+  position: absolute;
+  height: 1px;
+  top: -1px;
+  left: -1px;
+  -webkit-text-stroke: 1px #fffffff7;
+  font-family: "DM Serif Display", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 3.52px;
+  line-height: 0.1px;
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
+.wireframe .element-days-with-SB {
+  position: absolute;
+  width: 336px;
+  height: 45px;
+  top: 57px;
+  left: 140px;
 }
 
-main {
-    padding-top: 30px;
+.wireframe .text-wrapper-2 {
+  position: absolute;
+  height: 1px;
+  top: 73px;
+  left: 767px;
+  font-family: "DM Serif Display", Helvetica;
+  font-weight: 400;
+  color: #1b1b1b;
+  font-size: 20px;
+  letter-spacing: 3.2px;
+  line-height: 0.1px;
 }
 
-/* Section Headings */
-h2 {
-    font-family: 'DM Serif Display', serif;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 44px;
-    letter-spacing: 0.16em;
-    color: #333333;
+.wireframe .text-wrapper-3 {
+  position: absolute;
+  height: 1px;
+  top: 74px;
+  left: 992px;
+  font-family: "DM Serif Display", Helvetica;
+  font-weight: 400;
+  color: #1b1b1b;
+  font-size: 20px;
+  letter-spacing: 3.2px;
+  line-height: 0.1px;
 }
 
-/* Section Paragraphs */
-p {
-    font-family: 'DM Serif Display', serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1.5;
-    color: #333333;
+.wireframe .overlap {
+  position: absolute;
+  width: 1345px;
+  height: 781px;
+  top: 148px;
+  left: 0;
 }
 
-/* Footer */
-footer {
-    background-color: #333;
-    color: white;
+.wireframe .overlap-2 {
+  position: absolute;
+  width: 1345px;
+  height: 670px;
+  top: 0;
+  left: 0;
+}
+
+.wireframe .group-wrapper {
+  position: absolute;
+  width: 411px;
+  height: 52px;
+  top: 503px;
+  left: 720px;
+  background-color: #333333;
+  border-radius: 5px;
+}
+
+.wireframe .div-wrapper {
+  position: relative;
+  width: 384px;
+  height: 1px;
+  top: 26px;
+  left: 16px;
+}
+
+.wireframe .p {
+  position: absolute;
+  height: 1px;
+  top: -1px;
+  left: -1px;
+  -webkit-text-stroke: 1px #ffffff;
+  font-family: "DM Serif Display", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 3.52px;
+  line-height: 0.1px;
+}
+
+.wireframe .element-days-of {
+  position: absolute;
+  width: 739px;
+  height: 362px;
+  top: 0;
+  left: 606px;
+  -webkit-text-stroke: 1px #000000;
+  font-family: "DM Serif Display", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 52px;
+  letter-spacing: 0.52px;
+  line-height: normal;
+}
+
+.wireframe .a-unique-ride-with {
+  position: absolute;
+  width: 685px;
+  height: 362px;
+  top: 207px;
+  left: 613px;
+  font-family: "DM Serif Display", Helvetica;
+  font-weight: 400;
+  color: #000000d6;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.wireframe .untitled-design {
+  position: absolute;
+  width: 657px;
+  height: 582px;
+  top: 88px;
+  left: 0;
+  object-fit: cover;
+}
+
+.wireframe .img {
+  position: absolute;
+  width: 409px;
+  height: 161px;
+  top: 620px;
+  left: 751px;
+  object-fit: cover;
 }
